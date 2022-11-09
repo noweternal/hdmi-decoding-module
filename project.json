@@ -1,0 +1,2473 @@
+{
+  "schematics": {
+    "7352a2afa3c348d3be822fcbd3f11041": {
+      "name": "HDMI输入模块",
+      "sheets": [
+        {
+          "name": "HDMI_IN.SchDoc",
+          "id": 1
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "30e034a57c844498966092f68b93f5fc": "hdmi"
+  },
+  "panels": {},
+  "symbols": {
+    "3b648129a3e049a1a74a14507dee4951": {
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1V8_VCC",
+      "version": "27097c0a1f2061f61bf82941518588ca",
+      "type": 18
+    },
+    "eaddfe3d6bcd47bb95bbf09fd5b26a90": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "bd88c3f70314f5f290fbf7b9fa2787e0",
+      "type": 18
+    },
+    "1bb5adb8d7e14c5bb659377f5e62eef1": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "1df4f27fe6396a8949fda0d90287b788",
+      "type": 18
+    },
+    "aa24b90d6ccc4b4f9d0d8d48e9472af8": {
+      "source": "3ffdddc4697fc01252a0f4857ca7a1e6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3V3_AVCC",
+      "version": "0b3dd72c43f135878e295390fc97d922",
+      "type": 18
+    },
+    "23d0a317c3bc4818a43d39f006419a10": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "385d90a1b861f0c27236ea4c298ad21a",
+      "type": 18
+    },
+    "7f21af0ed83e45d2ab56c8a06509c263": {
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3V3_DVCC",
+      "version": "ba8c885d1884ecccfa72604641cc7f61",
+      "type": 18
+    },
+    "3f910bb3e4cc43b9b0cbd4419066252c": {
+      "source": "3ffdddc4697fc01252a0f4857ca7a1e6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3V3_AVCC",
+      "version": "ba8c885d1884ecccfa72604641cc7f61",
+      "type": 18
+    },
+    "41bbb6ef07e34ebb8d1439dccf667147": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "262d268077d6c476f4267cbdcd462038",
+      "type": 18
+    },
+    "fb1d4993effc45e6aeb20d19368babed": {
+      "source": "db13230430a82f8f881543e7415771c2|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "HDMI-VCC",
+      "version": "0b3dd72c43f135878e295390fc97d922",
+      "type": 18
+    },
+    "fb0022b5e4274d0da3e9416b6aa3bacf": {
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3V3_DVCC",
+      "version": "34ba68c1296d6abb8bbe5926ab50c8a7",
+      "type": 18
+    },
+    "f3efaae274244560b6c5e12a7b07383f": {
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3V3_DVCC",
+      "version": "27097c0a1f2061f61bf82941518588ca",
+      "type": 18
+    },
+    "c76d057802da41cab2922e7413ebaf12": {
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1V8_VCC",
+      "version": "ba8c885d1884ecccfa72604641cc7f61",
+      "type": 18
+    },
+    "a18b3ebb96c4414d9381eee48bfd239b": {
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1V8_VCC",
+      "version": "34ba68c1296d6abb8bbe5926ab50c8a7",
+      "type": 18
+    },
+    "1a2af55867b24c45bc18b2721964737e": {
+      "source": "aca493cfd2cd8885500ed352d201c854|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "+3.3V",
+      "version": "ba8c885d1884ecccfa72604641cc7f61",
+      "type": 18
+    },
+    "0f8d4a1bb684482e88c8e3f094286f39": {
+      "source": "a36d042246648a600e19b97bea79a498|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "+1.8V",
+      "version": "ba8c885d1884ecccfa72604641cc7f61",
+      "type": 18
+    },
+    "f5fcbb9948ca4e03bada9d88b1914891": {
+      "source": "bbc55ea52054c3992140c722ccc87bff|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_VS",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "9229afb7f9bb4565a27788c331715045": {
+      "source": "98f75a7c52c18f801abf6fe77e561127|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_HS",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "50e5f2e805664784bc1c152e9026e589": {
+      "source": "05a62675ee614c84d71b1ed3abf00181|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_DE",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "dadca542358a40f6b7a81c4230dc176b": {
+      "source": "9db48e4600d6f3cf5665aebf5e856cb5|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_CLK",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "dca840968a4a4dd2bef3c47a6b927daa": {
+      "source": "abbd6b95447a18683ae68c448f12e4dd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D0",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "024bc976a6c34390a10b435ebe233d1f": {
+      "source": "dd877df05549fa23bce5616103cb0b24|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D1",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "f5f87c84944645099bf1dacabb30c20a": {
+      "source": "fe9129aededdf7e706a1892e127f0e86|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D2",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "c917d6c68b3649dfb4f1392a8eb7a8dc": {
+      "source": "cd0be477d194603c5fe5fd991267cd07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D3",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "1bbcc29a74674bc99428f3d865aeff63": {
+      "source": "52d3776536579e1a6851a6a68a932842|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D4",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "44246bbdd8d14002bb6b2fa2e1a90185": {
+      "source": "d1ee15cb46c7bedacc32cab2bf35c7b0|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D5",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "e3156e80a6e844e2bae76710d0c16fe2": {
+      "source": "4ad1869bcc656a16e9ccf12aa4065422|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D6",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "5d1c8aebbba24744b243236dfbe45f93": {
+      "source": "6656d787ad466117e648eefc6eaa7c18|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D7",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "cc7743444e304874986cd4c958b6d028": {
+      "source": "e20d32a806633f44637a8a376fd30b12|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D8",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "a3511f809ff34b41a83e54d1097cea91": {
+      "source": "37e65870bd1daf5e92ace6b3579076eb|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D9",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "5f0ed8594ca9450683fd9125323b5a60": {
+      "source": "e7f8024bd7e31feeb162e77247e5a631|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D10",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "5a5e621789f1457ba3e34abefe40f45f": {
+      "source": "171df6c37ea2ab4c7a616a9fca038a5a|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D11",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "925ad673244a43d6bb621a32c490f767": {
+      "source": "adfa6211b850eddf719ce5ca9849f0b7|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D12",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "171824091f314c2181ec291774a66b74": {
+      "source": "83be894ecc8d105f4b0b651c1f7b39c6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D13",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "ab45f60e6d1d4ab9bdb92e283f0fad64": {
+      "source": "d552cf5b09e7c434bacc109227b0dd1c|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D14",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "3fc3eb8c7bc84f6486d52f703e3e8b46": {
+      "source": "537ab1c42572c4110040e644172ac2dd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D15",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "bcad704f301f46da91db6c91e5b22c68": {
+      "source": "7c122ac6d66adf16c9cbf28745c5dfaa|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D16",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "576168adf0264452a18c0ec8ac0849b2": {
+      "source": "8a650bc6acaf7d94ea3e6fd0e94ea92d|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D17",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "477bc1f1815540f59fd8d4f2b803b02f": {
+      "source": "89a35485e8d1995b34f2c35689fc917c|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D18",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "83bb48b5ed1f40a6adb8b490f74c592b": {
+      "source": "8e74557c0a6968b9e4afb72131c294f1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D19",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "a3f280ac50df4fb4af5dd9160ebaeb81": {
+      "source": "aab8f2b5efc048f3c5b41213fee31084|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D20",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "7bd05b64693548ba82db037c9856d679": {
+      "source": "3460c3cc45ab344d4fb1eeec1399ce69|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D21",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "50168416736b432d90dcd8436e96433e": {
+      "source": "001c51746fad8c500c2ef4f05320c774|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D22",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "7c6558048ecb40189d5b1ef969e87988": {
+      "source": "c9a13469028df0d0039078cc471667b1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_D23",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "1d6df2823c8e4af0bca61d5cb99c9c39": {
+      "source": "1de8fe15e4146e09aadbbd21129355eb|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "9013_NRESET",
+      "version": "5e16b3052d04fb3e892d1db344ed0f30",
+      "type": 18
+    },
+    "db6c360d72b74ff388449a0bd1d9d5fc": {
+      "source": "5cd1f372f954af49b8716b1096b4e6b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "33R",
+      "version": "8fc17d814d45bfd9038ab832d6aa082b",
+      "type": 2
+    },
+    "48d661fbc6b44ad29618db571262c59c": {
+      "source": "cb99e561d4f13e2001cd3af6e5022fde|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "27MHz",
+      "version": "e79baabc4b74b87da61f6777949bb657",
+      "type": 2
+    },
+    "49a11c6dd0f144abb9f6a5f6ae9e73c6": {
+      "source": "05167f5de28682c22787413870feed6f|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "HDMI IN",
+      "version": "6ee03b735b50d5de1e89e65b3b16cc6b",
+      "type": 2
+    },
+    "66e4f1eb1b41455a88290852307c9e6a": {
+      "source": "56dadde67decd3ebfcb4f9c20d0aba41|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "24C02",
+      "version": "c7272d13c144f5737e8a9a682fc55741",
+      "type": 2
+    },
+    "84c8df2d4dcf4fd7946d9809af6a3b5f": {
+      "source": "b8c932704e8e6b99ed2fcb0cf53da8a1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "120OHM@100Mhz",
+      "version": "18613d6f188c2ae260cea7f345b85cdb",
+      "type": 2
+    },
+    "3b7518f03ff548229074fb0ce799885f": {
+      "source": "f4be7140390ccf7819bd3f5245915bb6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "AMS1117-3.3-YJLTY",
+      "version": "54a7f14def966eda8c9e47ba9d9fe954",
+      "type": 2
+    },
+    "c33f260cf970436c8bd6d82d79740213": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "1372807c0ff49089a68a8db13d94cb61",
+      "type": 18
+    },
+    "fab632b1cd3d4d2aa9a30acdd78f5ba0": {
+      "source": "845cae8faeb453312a7c64606817a020|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "AMS1117-1.8",
+      "version": "6539711a9fa8882ff01d1e2e227d0445",
+      "type": 2
+    },
+    "3548963a52524089b74d6cd9dafeebb4": {
+      "source": "702c5b5bee3e5f1703fca38c7fa61ed5|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SiI9013/9011",
+      "version": "616172b3412d5fa3b86555e911dc196c",
+      "type": 2
+    },
+    "029527d79d6040cbb6d277843dc05256": {
+      "source": "6bedd38c6d1ae72e8a64b5ce5bfd1375|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "HDMI_SDA",
+      "version": "a23156e694229e5aeb60c6c60f57a85a",
+      "type": 18
+    },
+    "9b111eac08da4aa1a0f54e40d57a7e63": {
+      "source": "d1fc60fe3f0fbc1e9f6449be4b376ac7|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "HDMI_SCL",
+      "version": "a23156e694229e5aeb60c6c60f57a85a",
+      "type": 18
+    },
+    "20da556f7a094464bffee257f5c76c0f": {
+      "source": "ff5e6eee613412c24b410a1fa509ac81|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "双排母2*18P",
+      "version": "cdc49e2b3de08e1ab3a4050c98e944ea",
+      "type": 2
+    },
+    "2de2100121914b82bfb28fd731337bbb": {
+      "source": "45f101e0f85b313e88b6ce7a007277f1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "+5V",
+      "version": "00392ccaec7a34bfc3b41081b837489d",
+      "type": 18
+    },
+    "b1a2a52459a14e4c89aa399a6061a81d": {
+      "source": "7272829593da18ae8300f47e89bb5137|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "18pF",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "e1fd92089a5b49a9a5d068134c3c8911": {
+      "source": "c2cf539e3ca88c178549559e8a64fa80|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "0.1u",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "b064ab12dddd4c0bacab3bf3f2d1145e": {
+      "source": "43d9fa74af9182ef1d7c24fb6e096bcc|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10u",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "f8e00ae0d6cd412aaec72fa3e0e92c41": {
+      "source": "ad039decc20ecd7bdf5014346f2875ed|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10k",
+      "version": "33dfbaebdd0def45008c49ab751e051f",
+      "type": 2
+    },
+    "8a217912e0804b4baed71b1e44092ab6": {
+      "source": "5cd1f372f954af49b8716b1096b4e6b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "33R",
+      "version": "aab6ef5232f5d7da4bd49e89e9d98ae0",
+      "type": 2
+    },
+    "8aa86623c3d1409c864193f867ccd16f": {
+      "source": "60a31ca347c9c442cede08b2c9c8bacd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "4.7k",
+      "version": "aab6ef5232f5d7da4bd49e89e9d98ae0",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "21e0a32c8dec4d5aa9c5fef57f621dec": {
+      "title": "R0402",
+      "source": "45e219a6b9315b459a45fc48067646c4|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f9d1580886650f92a8357aff45765e15",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "c932f1778471472c8f675284a8e0fa5e": {
+      "title": "SX2-1205",
+      "source": "ef4c14b1c4231b5cea7ddb04fdaac2bf|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "1ddb8e89ca6ab02949872d03774a172c",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "15cc3237a2e440bf9a0ac3626d201dc7": {
+      "title": "HDMI-SMD_KH-HDMI-19P-CU",
+      "source": "f6aab6c8edbacd3633384e792a6403b5|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f4a9a1a600f34e0c554e4bb0755833f6",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "b60a73ada25744acbb1d23f9ceb47a15": {
+      "title": "AT24C02",
+      "source": "94b5f52e3b12e72cae096ff728e6a7e8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "24475f5b9ec244a38b17fdac5f653072",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "f75297fa59f849f3a8cdf429e982bbb7": {
+      "title": "L0603",
+      "source": "500dea45eac04225dc0d8b99f1714074|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "dd410a880b35af92fac1e519b9558df1",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "53b422f9403e45d29b9d17d6f9603602": {
+      "title": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+      "source": "a9e4d8da7cfa527fdec4e0250a760905|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "6b1eb37a59bdbc57c0415a3318e8a54b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "6b07ce7b043e4af0a91a7686c36a5968": {
+      "title": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+      "source": "3cd2bc9ff4a5d13b754a1daa7f890f23|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "cc4bbe1b6954cb7c4836ad66577ec3b5",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "c7417850b8ab4acdaf9b9cde2f9472a2": {
+      "title": "HTQFP128_PNP",
+      "source": "36c1984076433a51052160863035434e|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "dac5f8c503523184dd71d1cb59d32f0a",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "cdf9c18014bc4149a767ef21a10e09bd": {
+      "title": "KY-排母2*18P间距2.54MM",
+      "source": "82041625c75e172c4b216d975da324f0|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "cedeba1cb5dc5ec96c7c750376e3eab4",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "dccc664a74b64a349b816caf28b460b8": {
+      "title": "C0402",
+      "source": "ffbf672b777e1a720495702e7cca8c02|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ee09b862c6eec890f02e52b02c308131",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "35ceaa34a70644bcbc0491b079a3e2c9": {
+      "title": "C0805",
+      "source": "6c2039cbe639178be493b2e43cae1003|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "8a310eb92068da0bbf147f7e356766ea",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e278d4e3bef54182990592d06e66da7c": {
+      "title": "C0402",
+      "source": "ffbf672b777e1a720495702e7cca8c02|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "d8badeb0b139bbdc6bf2b90565aa8ee3",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e993e61015bd46a188aa5fe76394bd2a": {
+      "title": "C0402",
+      "source": "ffbf672b777e1a720495702e7cca8c02|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "fe95ab01562b66fab3b7f80586f9a398",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "26816cb22b84458d9585d7c0bc1c90c4": {
+      "title": "C0402",
+      "source": "ffbf672b777e1a720495702e7cca8c02|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "787bf0baad94ce7dc8e3991b645da497",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "0bbbdee2106d422fb5d0eacc23bd4aac": {
+      "title": "C0402",
+      "source": "ffbf672b777e1a720495702e7cca8c02|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "fe95ab01562b66fab3b7f80586f9a398",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "eaacc1fc132a4dfc9975f92241100585": {
+      "title": "C0805",
+      "source": "6c2039cbe639178be493b2e43cae1003|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "69ebe22d864ee8d315b4f770da6412cc",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "26fdcf1d0564416bb9e811c4c9596504": {
+      "title": "R0402",
+      "source": "45e219a6b9315b459a45fc48067646c4|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "3ff60d62ebbe971b24c850f02a03208b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "30e034a57c844498966092f68b93f5fc_e2429": {
+      "title": "C0402",
+      "source": "dccc664a74b64a349b816caf28b460b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ee09b862c6eec890f02e52b02c308131",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "uuid": "30e034a57c844498966092f68b93f5fc_e2429"
+    },
+    "30e034a57c844498966092f68b93f5fc_e2427": {
+      "title": "C0402",
+      "source": "dccc664a74b64a349b816caf28b460b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ee09b862c6eec890f02e52b02c308131",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "uuid": "30e034a57c844498966092f68b93f5fc_e2427"
+    },
+    "30e034a57c844498966092f68b93f5fc_e2439": {
+      "title": "C0402",
+      "source": "dccc664a74b64a349b816caf28b460b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ee09b862c6eec890f02e52b02c308131",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "uuid": "30e034a57c844498966092f68b93f5fc_e2439"
+    }
+  },
+  "devices": {
+    "10a4526ffe81431ea7ebf9b51ed8f548": {
+      "title": "1V8_VCC",
+      "attributes": {
+        "Symbol": "3b648129a3e049a1a74a14507dee4951",
+        "Footprint": "",
+        "Name": "1V8_VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7026c9674fa1ab41ecab0a5b8cbe2cd2",
+      "custom_tags": ""
+    },
+    "5924152ad18e476b9681b945258c61c6": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "eaddfe3d6bcd47bb95bbf09fd5b26a90",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "90a41c9d3f773a4f456a117cdc1f3b79",
+      "custom_tags": ""
+    },
+    "76cbe41843b649549adb483292ba07bf": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "1bb5adb8d7e14c5bb659377f5e62eef1",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "3854eb0992d710bd2c3e76338528baa6",
+      "custom_tags": ""
+    },
+    "86defcaed5a2455285d576aca8a9f49e": {
+      "title": "3V3_AVCC",
+      "attributes": {
+        "Symbol": "aa24b90d6ccc4b4f9d0d8d48e9472af8",
+        "Footprint": "",
+        "Name": "3V3_AVCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "3ffdddc4697fc01252a0f4857ca7a1e6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "8f8a82e0266ec27f5968fefcee6210c0",
+      "custom_tags": ""
+    },
+    "930aec1d945646fc93764a7b4f0ca965": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "23d0a317c3bc4818a43d39f006419a10",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "4724c084d0ca98b796ec0f25d7d89ed8",
+      "custom_tags": ""
+    },
+    "be28579933ce4aef9a8c511abb4ed60b": {
+      "title": "3V3_DVCC",
+      "attributes": {
+        "Symbol": "7f21af0ed83e45d2ab56c8a06509c263",
+        "Footprint": "",
+        "Name": "3V3_DVCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f181241897dfe7172629fb1e6d39ddfe",
+      "custom_tags": ""
+    },
+    "5865061032704fe09408241bd579e9ef": {
+      "title": "3V3_AVCC",
+      "attributes": {
+        "Symbol": "3f910bb3e4cc43b9b0cbd4419066252c",
+        "Footprint": "",
+        "Name": "3V3_AVCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "3ffdddc4697fc01252a0f4857ca7a1e6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "9dc2c7067f92f6d8078675a1d3a75238",
+      "custom_tags": ""
+    },
+    "713f9811702244ba80f920f5638abc17": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "41bbb6ef07e34ebb8d1439dccf667147",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "6769ec174fa4bb9c5482a9fae97b08e0",
+      "custom_tags": ""
+    },
+    "7cc71fa636c246a59a65a4d9994e278f": {
+      "title": "HDMI-VCC",
+      "attributes": {
+        "Symbol": "fb1d4993effc45e6aeb20d19368babed",
+        "Footprint": "",
+        "Name": "HDMI-VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "db13230430a82f8f881543e7415771c2|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "6fbeb4ecdec53c933da17898cabf393e",
+      "custom_tags": ""
+    },
+    "b12d9db507ca4987a396316dcec1b496": {
+      "title": "3V3_DVCC",
+      "attributes": {
+        "Symbol": "fb0022b5e4274d0da3e9416b6aa3bacf",
+        "Footprint": "",
+        "Name": "3V3_DVCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "4cdc60278014adea183490da922f386f",
+      "custom_tags": ""
+    },
+    "075e127ca46f45d99e59d03d3766fdab": {
+      "title": "3V3_DVCC",
+      "attributes": {
+        "Symbol": "f3efaae274244560b6c5e12a7b07383f",
+        "Footprint": "",
+        "Name": "3V3_DVCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "95a4afddf34720a3e37fb29d1350ea89|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "bf14927f0c6c50f38076b6070a680b82",
+      "custom_tags": ""
+    },
+    "e251da621f8d4295ace26a5827c093e7": {
+      "title": "1V8_VCC",
+      "attributes": {
+        "Symbol": "c76d057802da41cab2922e7413ebaf12",
+        "Footprint": "",
+        "Name": "1V8_VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ef0c1561c6c73076c9d1a529ae569811",
+      "custom_tags": ""
+    },
+    "fb4955bea5bd46ba97c11e4748b370b4": {
+      "title": "1V8_VCC",
+      "attributes": {
+        "Symbol": "a18b3ebb96c4414d9381eee48bfd239b",
+        "Footprint": "",
+        "Name": "1V8_VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "f70ff6c774883fc38edf6cb7a2d2b3f8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "5703291ea91e68973e70cb03a032fa57",
+      "custom_tags": ""
+    },
+    "4838de2a8a434888bb34c17b2f62930c": {
+      "title": "+3.3V",
+      "attributes": {
+        "Symbol": "1a2af55867b24c45bc18b2721964737e",
+        "Footprint": "",
+        "Name": "+3.3V"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "aca493cfd2cd8885500ed352d201c854|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "d72a55776a1dcfaa0ebaba69d4e67878",
+      "custom_tags": ""
+    },
+    "a1bd1d7d4d9847459d27bca0a4255b12": {
+      "title": "+1.8V",
+      "attributes": {
+        "Symbol": "0f8d4a1bb684482e88c8e3f094286f39",
+        "Footprint": "",
+        "Name": "+1.8V"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "a36d042246648a600e19b97bea79a498|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "5848ce3487422ebd4a6d2a157a74bf1f",
+      "custom_tags": ""
+    },
+    "c2f9571e2f7443bab7b93e4263720403": {
+      "title": "9013_VS",
+      "attributes": {
+        "Symbol": "f5fcbb9948ca4e03bada9d88b1914891",
+        "Footprint": "",
+        "Name": "9013_VS"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "bbc55ea52054c3992140c722ccc87bff|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f9697a4e6db1394f213430e9edc48d36",
+      "custom_tags": ""
+    },
+    "8d2a8e74b1674e2e865382f35855648a": {
+      "title": "9013_HS",
+      "attributes": {
+        "Symbol": "9229afb7f9bb4565a27788c331715045",
+        "Footprint": "",
+        "Name": "9013_HS"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "98f75a7c52c18f801abf6fe77e561127|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "0b945438ad2c5ff27fa9bf71f3b7a54a",
+      "custom_tags": ""
+    },
+    "477abb72a21a4f4ab273f7cc294e8bfd": {
+      "title": "9013_DE",
+      "attributes": {
+        "Symbol": "50e5f2e805664784bc1c152e9026e589",
+        "Footprint": "",
+        "Name": "9013_DE"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "05a62675ee614c84d71b1ed3abf00181|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "4cd47e5b667b355d8a19f9fd8eec4bab",
+      "custom_tags": ""
+    },
+    "cda72b38c9da4772aad756554f5fbc8f": {
+      "title": "9013_CLK",
+      "attributes": {
+        "Symbol": "dadca542358a40f6b7a81c4230dc176b",
+        "Footprint": "",
+        "Name": "9013_CLK"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "9db48e4600d6f3cf5665aebf5e856cb5|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7dee7c1f8726381db72a17a4d8aed3df",
+      "custom_tags": ""
+    },
+    "d9d6d07e90ef49c586668f4eeda9ef26": {
+      "title": "9013_D0",
+      "attributes": {
+        "Symbol": "dca840968a4a4dd2bef3c47a6b927daa",
+        "Footprint": "",
+        "Name": "9013_D0"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "abbd6b95447a18683ae68c448f12e4dd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7b40c9fb72b52ea323e6f8a85634c11f",
+      "custom_tags": ""
+    },
+    "25de54a8ac064fd095615ada2c5ed668": {
+      "title": "9013_D1",
+      "attributes": {
+        "Symbol": "024bc976a6c34390a10b435ebe233d1f",
+        "Footprint": "",
+        "Name": "9013_D1"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "dd877df05549fa23bce5616103cb0b24|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "30669854620aa8a8e77c7e087a817ad1",
+      "custom_tags": ""
+    },
+    "6148b97d37c34fabb55004cc2850a357": {
+      "title": "9013_D2",
+      "attributes": {
+        "Symbol": "f5f87c84944645099bf1dacabb30c20a",
+        "Footprint": "",
+        "Name": "9013_D2"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "fe9129aededdf7e706a1892e127f0e86|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7a188f0e7ad20da9faab605580d44d6b",
+      "custom_tags": ""
+    },
+    "e5d972161a4b4aa0bd63a9b1fa5c39a2": {
+      "title": "9013_D3",
+      "attributes": {
+        "Symbol": "c917d6c68b3649dfb4f1392a8eb7a8dc",
+        "Footprint": "",
+        "Name": "9013_D3"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "cd0be477d194603c5fe5fd991267cd07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "1801acee4e6e67fe5e8bec13dd500f2e",
+      "custom_tags": ""
+    },
+    "a19a8f924a14422b806f6f675761b6fe": {
+      "title": "9013_D4",
+      "attributes": {
+        "Symbol": "1bbcc29a74674bc99428f3d865aeff63",
+        "Footprint": "",
+        "Name": "9013_D4"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "52d3776536579e1a6851a6a68a932842|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "458bb2f6e6a483ed8b96fbeb5508f279",
+      "custom_tags": ""
+    },
+    "dc042af53f554d95a8d5519df528ef99": {
+      "title": "9013_D5",
+      "attributes": {
+        "Symbol": "44246bbdd8d14002bb6b2fa2e1a90185",
+        "Footprint": "",
+        "Name": "9013_D5"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "d1ee15cb46c7bedacc32cab2bf35c7b0|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "cc46c7ac4206a18e9028f835040f0941",
+      "custom_tags": ""
+    },
+    "4f7d8e37193c48b788658a26e5c8600a": {
+      "title": "9013_D6",
+      "attributes": {
+        "Symbol": "e3156e80a6e844e2bae76710d0c16fe2",
+        "Footprint": "",
+        "Name": "9013_D6"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "4ad1869bcc656a16e9ccf12aa4065422|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "c93ddb76aaed1687b9c964b673458477",
+      "custom_tags": ""
+    },
+    "af763b6a048f4fae86e923068e180b5b": {
+      "title": "9013_D7",
+      "attributes": {
+        "Symbol": "5d1c8aebbba24744b243236dfbe45f93",
+        "Footprint": "",
+        "Name": "9013_D7"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "6656d787ad466117e648eefc6eaa7c18|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "89cfe45efde0361a73d4577ad06084c5",
+      "custom_tags": ""
+    },
+    "d08d1d69b5ce4d59b29b78c55a0e53f5": {
+      "title": "9013_D8",
+      "attributes": {
+        "Symbol": "cc7743444e304874986cd4c958b6d028",
+        "Footprint": "",
+        "Name": "9013_D8"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "e20d32a806633f44637a8a376fd30b12|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ea841192a0e5278e1f25f5e4a75673aa",
+      "custom_tags": ""
+    },
+    "3f14c04ad914431cbcde607328951949": {
+      "title": "9013_D9",
+      "attributes": {
+        "Symbol": "a3511f809ff34b41a83e54d1097cea91",
+        "Footprint": "",
+        "Name": "9013_D9"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "37e65870bd1daf5e92ace6b3579076eb|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ad566c2f1c7f4a21f1f2f8ce1dcaa2ab",
+      "custom_tags": ""
+    },
+    "a817b11756094fd58908dd148532a637": {
+      "title": "9013_D10",
+      "attributes": {
+        "Symbol": "5f0ed8594ca9450683fd9125323b5a60",
+        "Footprint": "",
+        "Name": "9013_D10"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "e7f8024bd7e31feeb162e77247e5a631|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "a51dcf25e648c7e569732f833c58c676",
+      "custom_tags": ""
+    },
+    "3f5d62c3fdd946a0bfc41a322698637e": {
+      "title": "9013_D11",
+      "attributes": {
+        "Symbol": "5a5e621789f1457ba3e34abefe40f45f",
+        "Footprint": "",
+        "Name": "9013_D11"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "171df6c37ea2ab4c7a616a9fca038a5a|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "ab411ff9139cd570925dc925b6fbf066",
+      "custom_tags": ""
+    },
+    "d51ccfa81b314e9f9d0209f9b13afc2e": {
+      "title": "9013_D12",
+      "attributes": {
+        "Symbol": "925ad673244a43d6bb621a32c490f767",
+        "Footprint": "",
+        "Name": "9013_D12"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "adfa6211b850eddf719ce5ca9849f0b7|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "8aad1c960d40456edb6d957e1f80a76b",
+      "custom_tags": ""
+    },
+    "e63aa66a502d47e799e5336e36bbaba8": {
+      "title": "9013_D13",
+      "attributes": {
+        "Symbol": "171824091f314c2181ec291774a66b74",
+        "Footprint": "",
+        "Name": "9013_D13"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "83be894ecc8d105f4b0b651c1f7b39c6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "b6ecb01321a2378fb3c0bc62dc6d9f4a",
+      "custom_tags": ""
+    },
+    "7615b1d6f3234e56921efb2c179994ca": {
+      "title": "9013_D14",
+      "attributes": {
+        "Symbol": "ab45f60e6d1d4ab9bdb92e283f0fad64",
+        "Footprint": "",
+        "Name": "9013_D14"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "d552cf5b09e7c434bacc109227b0dd1c|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f3d295bf52ea69210566d33da37581f9",
+      "custom_tags": ""
+    },
+    "2ad1c8974ce547e8b669344095abaa8a": {
+      "title": "9013_D15",
+      "attributes": {
+        "Symbol": "3fc3eb8c7bc84f6486d52f703e3e8b46",
+        "Footprint": "",
+        "Name": "9013_D15"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "537ab1c42572c4110040e644172ac2dd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "2131e1713f333e4d6f0b112fc1046578",
+      "custom_tags": ""
+    },
+    "a0e7537788a24149a1328ad1473cdcb1": {
+      "title": "9013_D16",
+      "attributes": {
+        "Symbol": "bcad704f301f46da91db6c91e5b22c68",
+        "Footprint": "",
+        "Name": "9013_D16"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7c122ac6d66adf16c9cbf28745c5dfaa|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "f8915f7ae8820e70dc49b075fc8545ac",
+      "custom_tags": ""
+    },
+    "d9648149d9d24c059f1a18d25fa2b441": {
+      "title": "9013_D17",
+      "attributes": {
+        "Symbol": "576168adf0264452a18c0ec8ac0849b2",
+        "Footprint": "",
+        "Name": "9013_D17"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "8a650bc6acaf7d94ea3e6fd0e94ea92d|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "551569fdb301325d2b8dd5c578d51de7",
+      "custom_tags": ""
+    },
+    "2f72bb3c60ed4ca5a0b18b77dbb8e037": {
+      "title": "9013_D18",
+      "attributes": {
+        "Symbol": "477bc1f1815540f59fd8d4f2b803b02f",
+        "Footprint": "",
+        "Name": "9013_D18"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "89a35485e8d1995b34f2c35689fc917c|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "dcb0cafa57618be1bc4dfda3cb83eff4",
+      "custom_tags": ""
+    },
+    "3485933f86b540108ba0a09498834488": {
+      "title": "9013_D19",
+      "attributes": {
+        "Symbol": "83bb48b5ed1f40a6adb8b490f74c592b",
+        "Footprint": "",
+        "Name": "9013_D19"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "8e74557c0a6968b9e4afb72131c294f1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "61d75ea60f492494d03df44b35e07c65",
+      "custom_tags": ""
+    },
+    "fd5bc1d3243d4bf78e02da68c82841b0": {
+      "title": "9013_D20",
+      "attributes": {
+        "Symbol": "a3f280ac50df4fb4af5dd9160ebaeb81",
+        "Footprint": "",
+        "Name": "9013_D20"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "aab8f2b5efc048f3c5b41213fee31084|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "eb872033fa98383f905a3eecba77804b",
+      "custom_tags": ""
+    },
+    "450da323a39042baa29b790de3262738": {
+      "title": "9013_D21",
+      "attributes": {
+        "Symbol": "7bd05b64693548ba82db037c9856d679",
+        "Footprint": "",
+        "Name": "9013_D21"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "3460c3cc45ab344d4fb1eeec1399ce69|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "2767358c6aaeba750fc71588f8136f97",
+      "custom_tags": ""
+    },
+    "af6e5c6dd792476da51e24b9bf1d6160": {
+      "title": "9013_D22",
+      "attributes": {
+        "Symbol": "50168416736b432d90dcd8436e96433e",
+        "Footprint": "",
+        "Name": "9013_D22"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "001c51746fad8c500c2ef4f05320c774|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "0fab7f9f08f61673f245619b82679deb",
+      "custom_tags": ""
+    },
+    "c255afb6290642d38fc7841f5532bcf5": {
+      "title": "9013_D23",
+      "attributes": {
+        "Symbol": "7c6558048ecb40189d5b1ef969e87988",
+        "Footprint": "",
+        "Name": "9013_D23"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "c9a13469028df0d0039078cc471667b1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "449658d0c91ff52241c9ff9bd38012ac",
+      "custom_tags": ""
+    },
+    "71fa1dfb597243e7861cf04068d7b5d1": {
+      "title": "9013_nRESET",
+      "attributes": {
+        "Symbol": "1d6df2823c8e4af0bca61d5cb99c9c39",
+        "Footprint": "",
+        "Name": "9013_nRESET"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "1de8fe15e4146e09aadbbd21129355eb|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "3d069d1600bac55c8742fb46bf7e1fda",
+      "custom_tags": ""
+    },
+    "746c774ba63f4814a279821b32b31bca": {
+      "title": "33R",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "db6c360d72b74ff388449a0bd1d9d5fc",
+        "Filename": "",
+        "RES": "0603,5%",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "21e0a32c8dec4d5aa9c5fef57f621dec",
+        "Name": "33R"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "5cd1f372f954af49b8716b1096b4e6b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "6bf23c3715932cfacabcbf220389c5bb",
+      "custom_tags": ""
+    },
+    "ba1fce0566f44638adeb43546f319405": {
+      "title": "27MHz",
+      "attributes": {
+        "Designator": "Y?",
+        "Symbol": "48d661fbc6b44ad29618db571262c59c",
+        "CODE": "",
+        "PINOFF": "",
+        "OriginalSymbolOrigin": "",
+        "%208%%161%%192%%224%%195%%251%%179%%198%": "",
+        "COMPONENT_HIGH_MAX": "",
+        "%195%%232%%202%%246%": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "c932f1778471472c8f675284a8e0fa5e",
+        "Name": "27MHz"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "cb99e561d4f13e2001cd3af6e5022fde|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "962c1fae68147b393a62a280c509a98a",
+      "custom_tags": ""
+    },
+    "86bfb99128a44461ac14ce1e027d3e94": {
+      "title": "HDMI IN",
+      "attributes": {
+        "Designator": "J?",
+        "Symbol": "49a11c6dd0f144abb9f6a5f6ae9e73c6",
+        "04 MPN": "SD-500254-001",
+        "03 MAN": "MOLEX",
+        "01 IPN": "-",
+        "02 DESC": "CONN, HDMI connector R/A",
+        "Filename": "",
+        "Vendor": "JAE",
+        "MFG": "JAE xxxx-xxx",
+        "Vendor P/N": "xxxx-xxxx",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "15cc3237a2e440bf9a0ac3626d201dc7",
+        "Name": "HDMI IN"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "05167f5de28682c22787413870feed6f|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "4a6c911fde823744ed853596e2870a4b",
+      "custom_tags": ""
+    },
+    "6fcc0515daff412288dfb1496fdec56d": {
+      "title": "24C02",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "66e4f1eb1b41455a88290852307c9e6a",
+        "Supplier": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "b60a73ada25744acbb1d23f9ceb47a15",
+        "Name": "24C02"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "56dadde67decd3ebfcb4f9c20d0aba41|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "24c9ebd43b962aa6a3040a19080535e5",
+      "custom_tags": ""
+    },
+    "f28bc7fa285f4589bbd246e067256e2b": {
+      "title": "120OHM@100Mhz",
+      "attributes": {
+        "Designator": "L?",
+        "Symbol": "84c8df2d4dcf4fd7946d9809af6a3b5f",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "f75297fa59f849f3a8cdf429e982bbb7",
+        "Name": "120OHM@100Mhz"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "b8c932704e8e6b99ed2fcb0cf53da8a1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "929004c89e9d77fc43ccdccddd651aba",
+      "custom_tags": ""
+    },
+    "99e9ab5919eb452385bb717ed12f4930": {
+      "title": "AMS1117-3.3-YJLTY",
+      "attributes": {
+        "Designator": "NO?",
+        "Symbol": "3b7518f03ff548229074fb0ce799885f",
+        "Supplier": "LCSC",
+        "Supplier Part": "C9900003397",
+        "Manufacturer Part": "AMS1117-3.3-YJLTY",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "53b422f9403e45d29b9d17d6f9603602",
+        "Name": "AMS1117-3.3-YJLTY"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "f4be7140390ccf7819bd3f5245915bb6|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "556b9ea995db9717672d4d93f381208a",
+      "custom_tags": ""
+    },
+    "9428476936b04df29aeb9961be681aa1": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "c33f260cf970436c8bd6d82d79740213",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "318c292a3a5d53c79435272745e8691d",
+      "custom_tags": ""
+    },
+    "77f1755cb9fc4cdfa69113935c2f1028": {
+      "title": "AMS1117-1.8",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "fab632b1cd3d4d2aa9a30acdd78f5ba0",
+        "Supplier": "LCSC",
+        "Manufacturer": "AMS",
+        "Manufacturer Part": "AMS1117-1.8",
+        "Supplier Part": "C6185",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "6b07ce7b043e4af0a91a7686c36a5968",
+        "Name": "AMS1117-1.8"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "845cae8faeb453312a7c64606817a020|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "118f1ff0ec0deaf91777b4ef06d9a587",
+      "custom_tags": ""
+    },
+    "8321ddf4a32645209ba5bb403679d56a": {
+      "title": "SiI9013/9011",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "3548963a52524089b74d6cd9dafeebb4",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "c7417850b8ab4acdaf9b9cde2f9472a2",
+        "Name": "SiI9013/9011"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "702c5b5bee3e5f1703fca38c7fa61ed5|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "fdeb13cc7d3fc01fe4b9fb9980e3107d",
+      "custom_tags": ""
+    },
+    "d97ad4cfdc964a0e9bacfe4ff81f7b84": {
+      "title": "HDMI_SDA",
+      "attributes": {
+        "Symbol": "029527d79d6040cbb6d277843dc05256",
+        "Footprint": "",
+        "Name": "HDMI_SDA"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "6bedd38c6d1ae72e8a64b5ce5bfd1375|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "473cd046cb75cf0b4dfed02b3d05a578",
+      "custom_tags": ""
+    },
+    "9fa1d7f619a84fc0b2032445e977e5db": {
+      "title": "HDMI_SCL",
+      "attributes": {
+        "Symbol": "9b111eac08da4aa1a0f54e40d57a7e63",
+        "Footprint": "",
+        "Name": "HDMI_SCL"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "d1fc60fe3f0fbc1e9f6449be4b376ac7|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "288472de4c722a3b7f00c4be2419ddb0",
+      "custom_tags": ""
+    },
+    "f6588575ad704e5a99f93cefdd6b5556": {
+      "title": "220S-2*5P H=8.5MM Ytype Gold-plated",
+      "attributes": {
+        "Designator": "H?",
+        "Symbol": "20da556f7a094464bffee257f5c76c0f",
+        "Supplier": "LCSC",
+        "Manufacturer": "Ckmtw",
+        "Manufacturer Part": "220S-2*5P H=8.5MM Ytype Gold-plated",
+        "Supplier Part": "C124423",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "cdf9c18014bc4149a767ef21a10e09bd",
+        "Name": "220S-2*5P H=8.5MM Ytype Gold-plated"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "568482d94ee6e02c89efeddcf98acce8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "078405004ec10b5a03b35cfb588c58ce",
+      "custom_tags": ""
+    },
+    "6266e7f705e64e41a17f45c667934ac5": {
+      "title": "+5V",
+      "attributes": {
+        "Symbol": "2de2100121914b82bfb28fd731337bbb",
+        "Footprint": "",
+        "Name": "+5V"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "45f101e0f85b313e88b6ce7a007277f1|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7f23215c605e044681c32454448ffb4b",
+      "custom_tags": ""
+    },
+    "b7defa9e20274675a1c2d53e6a071c7c": {
+      "title": "18pF",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "b1a2a52459a14e4c89aa399a6061a81d",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "dccc664a74b64a349b816caf28b460b8",
+        "Name": "18pF"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7272829593da18ae8300f47e89bb5137|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "eaa758674619018ceab7ac9b8bbef463",
+      "custom_tags": ""
+    },
+    "334872fa760d4933a9e2d86b3cd78532": {
+      "title": "0.1u",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "e1fd92089a5b49a9a5d068134c3c8911",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "dccc664a74b64a349b816caf28b460b8",
+        "Name": "0.1u"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "c2cf539e3ca88c178549559e8a64fa80|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "e9243dab4449fc33c4f17ac056d2cbf1",
+      "custom_tags": ""
+    },
+    "17ca508d252540ce8c1efa9fff27accb": {
+      "title": "10u",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "b064ab12dddd4c0bacab3bf3f2d1145e",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "35ceaa34a70644bcbc0491b079a3e2c9",
+        "Name": "10u"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "43d9fa74af9182ef1d7c24fb6e096bcc|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "687c3883cc5be4db392432533dfedb2f",
+      "custom_tags": ""
+    },
+    "1f82b01c3c9b4d04b28f1802b780c688": {
+      "title": "10k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "f8e00ae0d6cd412aaec72fa3e0e92c41",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "21e0a32c8dec4d5aa9c5fef57f621dec",
+        "Name": "10k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ad039decc20ecd7bdf5014346f2875ed|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "654108b7098ca09bc5ec53f69eb53aaa",
+      "custom_tags": ""
+    },
+    "58b96c2159944d4a9c6821e6071d1cf4": {
+      "title": "33R",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "8a217912e0804b4baed71b1e44092ab6",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "21e0a32c8dec4d5aa9c5fef57f621dec",
+        "Name": "33R"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "5cd1f372f954af49b8716b1096b4e6b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "dac83e1fe82097c8f656bc23a428d381",
+      "custom_tags": ""
+    },
+    "ee8d9b5377954a5f80371be4b1896fa1": {
+      "title": "4.7k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "8aa86623c3d1409c864193f867ccd16f",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "21e0a32c8dec4d5aa9c5fef57f621dec",
+        "Name": "4.7k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "60a31ca347c9c442cede08b2c9c8bacd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "a1bb7fe1fa577a8dc72bf91dcf9cd058",
+      "custom_tags": ""
+    },
+    "acbf0910f16540328f954d7e8b6e5dcb": {
+      "title": "0.1uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "PART NUMBER": "1802-00187D",
+        "Symbol": "",
+        "Footprint": "dccc664a74b64a349b816caf28b460b8",
+        "Name": "0.1uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "585164ea25e6b4c0b6e08c3d71808552|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "8188538a7f43f8e571a88de016e83e76",
+      "custom_tags": ""
+    },
+    "26dac412d7334cd59a5d391f67273d32": {
+      "title": "0.1uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "PART NUMBER": "1802-00187D",
+        "Symbol": "",
+        "Footprint": "e278d4e3bef54182990592d06e66da7c",
+        "Name": "0.1uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "585164ea25e6b4c0b6e08c3d71808552|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7111f0d60a90ce4ad929fdb757c76716",
+      "custom_tags": ""
+    },
+    "837df54adce8482895277cd087012e4c": {
+      "title": "0.1uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "PART NUMBER": "1802-00187D",
+        "Symbol": "",
+        "Footprint": "e993e61015bd46a188aa5fe76394bd2a",
+        "Name": "0.1uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "585164ea25e6b4c0b6e08c3d71808552|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "82443a25d0bc7649a25e14adcf4722d8",
+      "custom_tags": ""
+    },
+    "35b4c270753e42dba577349e1580a11d": {
+      "title": "0.1uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "PART NUMBER": "1802-00187D",
+        "Symbol": "",
+        "Footprint": "26816cb22b84458d9585d7c0bc1c90c4",
+        "Name": "0.1uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "585164ea25e6b4c0b6e08c3d71808552|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "6e67e18b558f11c9256093581e1359ae",
+      "custom_tags": ""
+    },
+    "2d27058b63cc4a1a94586b6b9d4b4072": {
+      "title": "0.1uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "PART NUMBER": "1802-00187D",
+        "Symbol": "",
+        "Footprint": "0bbbdee2106d422fb5d0eacc23bd4aac",
+        "Name": "0.1uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "585164ea25e6b4c0b6e08c3d71808552|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "82443a25d0bc7649a25e14adcf4722d8",
+      "custom_tags": ""
+    },
+    "f3e3b39da00843d69d4a706522495981": {
+      "title": "10uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/373011.html",
+        "3DModel": "C0805_L2.0-W1.3-H1.3",
+        "Symbol": "",
+        "Footprint": "35ceaa34a70644bcbc0491b079a3e2c9",
+        "Name": "10uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "73e837461c851d325a262d88bcc2e760|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "910ccd3ef9cbc4e5a485d71a39b78de3",
+      "custom_tags": ""
+    },
+    "eb704b744af2408a86eaee31c272b8f9": {
+      "title": "10uF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/373011.html",
+        "3DModel": "C0805_L2.0-W1.3-H1.3",
+        "Symbol": "",
+        "Footprint": "eaacc1fc132a4dfc9975f92241100585",
+        "Name": "10uF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "73e837461c851d325a262d88bcc2e760|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "d1615d7d99c46eb3e74d307d3eb3c9b6",
+      "custom_tags": ""
+    },
+    "ae63ff9c31834e09a024efe62909253d": {
+      "title": "18pF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "Symbol": "",
+        "Footprint": "e278d4e3bef54182990592d06e66da7c",
+        "Name": "18pF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7272829593da18ae8300f47e89bb5137|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "7111f0d60a90ce4ad929fdb757c76716",
+      "custom_tags": ""
+    },
+    "8683f052c1064db6a7cb148b783a0237": {
+      "title": "18pF",
+      "attributes": {
+        "link": "https://item.szlcsc.com/15869.html",
+        "3DModel": "C0402_L1.0-W0.5-H0.5",
+        "Symbol": "",
+        "Footprint": "dccc664a74b64a349b816caf28b460b8",
+        "Name": "18pF",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7272829593da18ae8300f47e89bb5137|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "8188538a7f43f8e571a88de016e83e76",
+      "custom_tags": ""
+    },
+    "07d45373c8104f9cad33e6b2cc4aa9b0": {
+      "title": "33R",
+      "attributes": {
+        "link": "https://item.szlcsc.com/323315.html",
+        "3DModel": "R0402_L1.0-W0.5-H0.5",
+        "Filename": "",
+        "RES": "0603,5%",
+        "Symbol": "",
+        "Footprint": "21e0a32c8dec4d5aa9c5fef57f621dec",
+        "Name": "33R",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "5cd1f372f954af49b8716b1096b4e6b8|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "96983a44fceb87749b8b9b6d73188b74",
+      "custom_tags": ""
+    },
+    "4571ac75518d4550879258174dc12c35": {
+      "title": "4.7K",
+      "attributes": {
+        "link": "https://item.szlcsc.com/323315.html",
+        "3DModel": "R0402_L1.0-W0.5-H0.5",
+        "Filename": "",
+        "RES": "0603,5%",
+        "Symbol": "",
+        "Footprint": "26fdcf1d0564416bb9e811c4c9596504",
+        "Name": "4.7K",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "60a31ca347c9c442cede08b2c9c8bacd|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "681a93334aa243524c5d6d5844c54b22",
+      "custom_tags": ""
+    },
+    "11dccb71310441bfba966b8b48b2c82f": {
+      "title": "10K",
+      "attributes": {
+        "link": "https://item.szlcsc.com/323315.html",
+        "3DModel": "R0402_L1.0-W0.5-H0.5",
+        "Filename": "",
+        "RES": "0603,5%",
+        "Symbol": "",
+        "Footprint": "26fdcf1d0564416bb9e811c4c9596504",
+        "Name": "10K",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ad039decc20ecd7bdf5014346f2875ed|59150a5b1a9facc6d51ea3cbd0a24014ce689e1e95a88a8a4ddd3bb5a08b3eeb",
+      "version": "681a93334aa243524c5d6d5844c54b22",
+      "custom_tags": ""
+    }
+  },
+  "boards": {
+    "HDMI输入模块": {
+      "schematic": "7352a2afa3c348d3be822fcbd3f11041",
+      "pcb": "30e034a57c844498966092f68b93f5fc"
+    }
+  },
+  "config": {
+    "title": "hdmi",
+    "cbbProject": 0,
+    "defaultSheet": "",
+    "editorVersion": "1.8.39.fb3963"
+  }
+}
